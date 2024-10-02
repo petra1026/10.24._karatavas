@@ -1,0 +1,1 @@
+print("Sveicināti spēlē 'Karātavas'!")
