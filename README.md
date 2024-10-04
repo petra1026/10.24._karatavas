@@ -30,42 +30,71 @@ Informācijas ievade:
 
 Spēles attēlojums (stāvoklis):
 karātavu attēlojums: 
-2. HANGMAN_PICS = ['''
-  3.   +---+
-  4.       |
-  5.       |
-  6.       |
-  7.      ===''', '''
-  8.   +---+
-  9.   O   |
- 10.       |
- 11.       |
- 12.      ===''', '''
- 13.   +---+
- 14.   O   |
- 15.   |   |
- 16.       |
- 17.      ===''', '''
- 18.   +---+
- 19.   O   |
- 20.  /|   |
- 21.       |
- 22.      ===''', '''
- 23.   +---+
- 24.   O   |
- 25.  /|\  |
- 26.       |
- 27.      ===''', '''
- 28.   +---+
- 29.   O   |
- 30.  /|\  |
- 31.  /    |
- 32.      ===''', '''
- 33.   +---+
- 34.   O   |
- 35.  /|\  |
- 36.  / \  |
- 37.      ===''']
+hangman = [
+    """
+       +---+
+       |   |
+           |
+           |
+           |
+           |
+    =========
+    """,
+    """
+      +---+
+      |   |
+      o   |
+          |
+          |
+          |
+    =========
+    """,
+    """
+      +---+
+      |   |
+      o   |
+      |   |
+          |
+          |
+    =========
+    """,
+    """
+      +---+
+      |   |
+      o   |
+     /|   |
+          |
+          |
+    =========
+    """,
+    """
+      +---+
+      |   |
+      o   |
+     /|\  |
+          |
+          |
+    =========
+    """,
+    """
+      +---+
+      |   |
+      o   |
+     /|\  | 
+     /    |
+          |
+    =========
+    """,
+    """
+      +---+
+      |   |
+      o   |
+     /|\  |
+     / \  |
+          |
+    =========
+    """
+]
 
 Spēles darbības (plūsma): Programma sasveicinās ar spēlētāju un aicina izvēlēties tēmu no kuras tā randomā izvēlēsies vienu vārdu, tad aicinās spēlētāju minēt burtus. Ja burts ir vārdā ieliek to uz svītras, ja nav pareizs noliek to malā, lai spēlētājs var redzēt kādi burti jau ir minēti un tā kamēr vārds ir uzminēts vai cilvēciņš pakārts. Kad spēle beigusies programma paziņo rezultātus, ja spēlētājs uzvarējis pasaka 'Tu esi uzvarējis! :)', bet ja zaudējis tad pasaka 'Tu esi zaudējis :('.
 
