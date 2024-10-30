@@ -98,7 +98,7 @@ while fails < 6:
     print(word.capitalize())
 
     if word == random_word:
-        print ("Tu vinnēji!")
+        print ("Tu vinnēji :) !")
         break
 
     letter = input("Ieraksti burtu: ").lower()
@@ -112,4 +112,4 @@ while fails < 6:
 
 if fails == 6:
     print(hangman[6])
-    print("Tu zaudēji!")
+    print("Tu zaudēji :( !")
